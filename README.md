@@ -18,6 +18,16 @@ npm run build
 npm run preview
 ```
 
+## 部署到 Cloudflare Pages
+
+```bash
+npm run deploy
+```
+
+项目名 `diverse-thinking`，生产分支 `master`。首次部署需要先在 Cloudflare 上
+登录授权（`wrangler login` 或已有 OAuth Token）。线上地址：
+<https://diverse-thinking.pages.dev>
+
 ## 怎么用
 
 1. **学**：模型馆按八个领域浏览。每条包含一句话定义、隐喻、机制、步骤、何时用/不用、陷阱、运用清单、自问、固定五段案例。来自 104 清单的条目带「芒格104」标签。
